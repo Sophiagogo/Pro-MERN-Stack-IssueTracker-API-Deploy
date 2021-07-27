@@ -4,7 +4,6 @@ const { MongoClient } = require('mongodb');
 
 const url = process.env.DB_URL || 'mongodb://localhost/issuetracker';
 
-
 function testWithCallbacks(callback) {
   console.log('\n--- testWithCallbacks---');
   const client = new MongoClient(url, { useNewUrlParser: true });
