@@ -20,5 +20,7 @@ JWT_SECRET=YOUR_SPECIAL_SECRET \
 COOKIE_DOMAIN=herokuapp.com
 * $ git push heroku main
 * $ heroku logs (to troubleshoot)
+* $ heroku config:set \
+UI_SERVER_ORIGIN=https://tracker-ui-$GITHUB_USER.herokuapp.com
 
 ### skip non-proxy deployment
